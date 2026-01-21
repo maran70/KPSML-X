@@ -2,7 +2,7 @@
 class KPSMLStyle:
     # ----------------------
     # async def start(client, message) ---> __main__.py
-    ST_BN1_NAME = '🤖 Repo'
+    ST_BN1_NAME = '🅰️ Admin'
     ST_BN1_URL = 'https://github.com/maran70/KPSML-X'
     ST_BN2_NAME = 'Updates 🔥'
     ST_BN2_URL = 'https://t.me/AnimeS_LinkzZ'
