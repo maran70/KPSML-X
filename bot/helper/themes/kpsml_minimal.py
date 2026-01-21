@@ -173,10 +173,10 @@ Type {help_command} to get a list of available commands</b>'''
 
     # def get_readable_message(): ---> bot_utilis.py
     ####--------OVERALL MSG HEADER----------
-    STATUS_NAME =       '📁 <b><i>{Name}</i></b>\n'
+    STATUS_NAME =       '📁 <b><i>{Name}</i></b>'
 
     #####---------PROGRESSIVE STATUS-------
-    BAR =               '\n🧲⚡ <b>Charging</b>\n{Bar}\n'
+    BAR =               '\n🧲⚡ <b>Running</b>\n{Bar}\n'
     PROCESSED =         '\n┠ 📥 <b>Processed:</b> {Processed}'
     STATUS =            '\n┠ 📜 <b>Status:</b> <a href="{Url}">{Status}</a>'
     ETA =                                                ' | ⏳ <b>ETA:</b> {Eta}'
