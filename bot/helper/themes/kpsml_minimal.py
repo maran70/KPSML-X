@@ -173,7 +173,7 @@ Type {help_command} to get a list of available commands</b>'''
 
     # def get_readable_message(): ---> bot_utilis.py
     ####--------OVERALL MSG HEADER----------
-    STATUS_NAME =       '📁 <b><i>{Name}</i></b>'
+    STATUS_NAME =       '📁 <b><i>{Name}</i></b>\n'
 
     #####---------PROGRESSIVE STATUS-------
     BAR =               '\n🧲⚡ <b>Charging</b>\n{Bar}\n'
