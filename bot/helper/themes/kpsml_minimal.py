@@ -136,13 +136,13 @@ Type {help_command} to get a list of available commands</b>'''
     L_LOG_START =           "➲ 🧲 <b><u>Leech Started :</u></b>\n┃\n┠ 🤖 <b>User :</b> {mention} ( #ID{uid} )\n┖ 🌐 <b>Source :</b> <a href='{msg_link}'>Click Here</a>"
 
    # async def onUploadComplete(): ---> tasks_listener.py
-    NAME =                  '📂 <b><i>{Name}</i></b>\n\n'
+    NAME =                  '🗃️ <b><i>{Name}</i></b>\n\n'
     SIZE =                  '📦 <b>Size: </b>{Size}\n'
     ELAPSE =                '⏳ <b>Elapsed: </b>{Time}\n'
     MODE =                  '💠 <b>Mode: </b>{Mode}\n'
 
     # ----- LEECH -------
-    L_TOTAL_FILES =         '📁 <b>Total Files: </b>{Files}\n'
+    L_TOTAL_FILES =         '🗃️ <b>Total Files: </b>{Files}\n'
     L_CORRUPTED_FILES =     '☢️ <b>Corrupted Files: </b>{Corrupt}\n'
     L_CC =                  '🧔 <b>By: </b>{Tag}\n\n'
     PM_BOT_MSG =            '➲ <b><i>File(s) have been Sent above</i></b>'
@@ -173,10 +173,10 @@ Type {help_command} to get a list of available commands</b>'''
 
     # def get_readable_message(): ---> bot_utilis.py
     ####--------OVERALL MSG HEADER----------
-    STATUS_NAME =       '📂 <b><i>{Name}</i></b>'
+    STATUS_NAME =       '🗃️ <b><i>{Name}</i></b>'
 
     #####---------PROGRESSIVE STATUS-------
-    BAR =               '\n🧲⚡ <b>Running</b>\n{Bar}\n'
+    BAR =               '\n</b>{Bar}\n'
     PROCESSED =         '\n📥 <b>Processed:</b> {Processed}'
     STATUS =            '\n📜 <b>Status:</b> <a href="{Url}">{Status}</a>'
     ETA =                                                ' | ⏳ <b>ETA:</b> {Eta}'
