@@ -136,7 +136,7 @@ Type {help_command} to get a list of available commands</b>'''
     L_LOG_START =           "➲ 🧲 <b><u>Leech Started :</u></b>\n┃\n┠ 🤖 <b>User :</b> {mention} ( #ID{uid} )\n┖ 🌐 <b>Source :</b> <a href='{msg_link}'>Click Here</a>"
 
    # async def onUploadComplete(): ---> tasks_listener.py
-    NAME =                  '📁 <b><i>{Name}</i></b>\n\n'
+    NAME =                  '📂 <b><i>{Name}</i></b>\n\n'
     SIZE =                  '📦 <b>Size: </b>{Size}\n'
     ELAPSE =                '⏳ <b>Elapsed: </b>{Time}\n'
     MODE =                  '💠 <b>Mode: </b>{Mode}\n'
@@ -173,37 +173,37 @@ Type {help_command} to get a list of available commands</b>'''
 
     # def get_readable_message(): ---> bot_utilis.py
     ####--------OVERALL MSG HEADER----------
-    STATUS_NAME =       '📁 <b><i>{Name}</i></b>'
+    STATUS_NAME =       '📂 <b><i>{Name}</i></b>'
 
     #####---------PROGRESSIVE STATUS-------
     BAR =               '\n🧲⚡ <b>Running</b>\n{Bar}\n'
-    PROCESSED =         '\n┠ 📥 <b>Processed:</b> {Processed}'
-    STATUS =            '\n┠ 📜 <b>Status:</b> <a href="{Url}">{Status}</a>'
+    PROCESSED =         '\n📥 <b>Processed:</b> {Processed}'
+    STATUS =            '\n📜 <b>Status:</b> <a href="{Url}">{Status}</a>'
     ETA =                                                ' | ⏳ <b>ETA:</b> {Eta}'
-    SPEED =             '\n┠ 🚀 <b>Speed:</b> {Speed}'
+    SPEED =             '\n🚀 <b>Speed:</b> {Speed}'
     ELAPSED =                                     ' | ⏱️ <b>Elapsed:</b> {Elapsed}'
-    ENGINE =            '\n┠ ⚙️ <b>Engine:</b> {Engine}'
-    STA_MODE =          '\n┠ 💠 <b>Mode:</b> {Mode}'
-    SEEDERS =           '\n┠ 🟢 <b>Seeders:</b> {Seeders} | '
+    ENGINE =            '\n⚙️ <b>Engine:</b> {Engine}'
+    STA_MODE =          '\n💠 <b>Mode:</b> {Mode}'
+    SEEDERS =           '\n🟢 <b>Seeders:</b> {Seeders} | '
     LEECHERS =                                           '🔴 <b>Leechers:</b> {Leechers}'
 
   ####--------SEEDING----------
-    SEED_SIZE =      '\n┠ 💾 <b>Size: </b>{Size}'
-    SEED_SPEED =     '\n┠ 🚀 <b>Speed: </b> {Speed} | '
+    SEED_SIZE =      '\n💾 <b>Size: </b>{Size}'
+    SEED_SPEED =     '\n🚀 <b>Speed: </b> {Speed} | '
     UPLOADED =                                     '📤 <b>Uploaded: </b> {Upload}'
-    RATIO =          '\n┠ 📊 <b>Ratio: </b> {Ratio} | '
+    RATIO =          '\n📊 <b>Ratio: </b> {Ratio} | '
     TIME =                                         '⏳ <b>Time: </b> {Time}'
-    SEED_ENGINE =    '\n┠ ⚙️ <b>Engine:</b> {Engine}'
+    SEED_ENGINE =    '\n⚙️ <b>Engine:</b> {Engine}'
 
     ####--------NON-PROGRESSIVE + NON SEEDING----------
-    STATUS_SIZE =    '\n┠ 💾 <b>Size: </b>{Size}'
-    NON_ENGINE =     '\n┠ ⚙️ <b>Engine:</b> {Engine}'
+    STATUS_SIZE =    '\n💾 <b>Size: </b>{Size}'
+    NON_ENGINE =     '\n⚙️ <b>Engine:</b> {Engine}'
 
    ####--------OVERALL MSG FOOTER----------
-    USER =              '\n┠ 🧑 <b>User:</b> <code>{User}</code> | '
+    USER =              '\n🧑 <b>User:</b> <code>{User}</code> | '
     ID =                                                        '🏷️ <b>ID:</b> <code>{Id}</code>'
-    BTSEL =          '\n┠ 🔘 <b>Select:</b> {Btsel}'
-    CANCEL =         '\n┖ 🚫 {Cancel}\n\n'
+    BTSEL =          '\n🔘 <b>Select:</b> {Btsel}'
+    CANCEL =         '\n🚫 {Cancel}\n\n'
 
     ####------FOOTER--------
     FOOTER = '<b><i>📊 Bot Stats</i></b>\n'
