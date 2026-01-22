@@ -137,9 +137,9 @@ Type {help_command} to get a list of available commands</b>'''
 
    # async def onUploadComplete(): ---> tasks_listener.py
     NAME =                  '📁 <b><i>{Name}</i></b>\n┃\n'
-    SIZE =                  '┠ 📦 <b>Size: </b>{Size}\n'
-    ELAPSE =                '┠ ⏳ <b>Elapsed: </b>{Time}\n'
-    MODE =                  '┠ 💠 <b>Mode: </b>{Mode}\n'
+    SIZE =                  '📦 <b>Size: </b>{Size}\n'
+    ELAPSE =                '⏳ <b>Elapsed: </b>{Time}\n'
+    MODE =                  '💠 <b>Mode: </b>{Mode}\n'
 
     # ----- LEECH -------
     L_TOTAL_FILES =         '┠ <b>Total Files: </b>{Files}\n'
@@ -206,7 +206,7 @@ Type {help_command} to get a list of available commands</b>'''
     CANCEL =         '\n┖ 🚫 {Cancel}\n\n'
 
     ####------FOOTER--------
-    
+    FOOTER = '<b><i>📊 Bot Stats</i></b>\n'
     TASKS =  '📌 <b>Tasks:</b> {Tasks}\n'
     BOT_TASKS = '📌 <b>Tasks:</b> {Tasks}/{Ttask} | <b>AVL:</b> {Free}\n'
     Cpu = '💻 <b>CPU:</b> {cpu}% | '
