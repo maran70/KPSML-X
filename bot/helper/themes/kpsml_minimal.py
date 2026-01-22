@@ -142,9 +142,9 @@ Type {help_command} to get a list of available commands</b>'''
     MODE =                  '💠 <b>Mode: </b>{Mode}\n'
 
     # ----- LEECH -------
-    L_TOTAL_FILES =         '┠ <b>Total Files: </b>{Files}\n'
-    L_CORRUPTED_FILES =     '┠ <b>Corrupted Files: </b>{Corrupt}\n'
-    L_CC =                  '┖ <b>By: </b>{Tag}\n\n'
+    L_TOTAL_FILES =         '📁 <b>Total Files: </b>{Files}\n'
+    L_CORRUPTED_FILES =     '☢️ <b>Corrupted Files: </b>{Corrupt}\n'
+    L_CC =                  '🧔 <b>By: </b>{Tag}\n\n'
     PM_BOT_MSG =            '➲ <b><i>File(s) have been Sent above</i></b>'
     L_BOT_MSG =             '➲ <b><i>File(s) have been Sent to Bot PM (Private)</i></b>'
     L_LL_MSG =              '➲ <b><i>File(s) have been Sent. Access via Links...</i></b>\n'
